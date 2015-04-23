@@ -2,7 +2,7 @@
 
 PROMPT='%{$fg[cyan]%}[$(hostname -s)]%{reset_color} %{$fg[magenta]%}[%c]%{$reset_color%} '
 
-RPROMPT='{$fg[magenta]%}$(git_prompt_info)%{$reset_color%} $(git_prompt_status) %{$fg[white]%}[%D{%H:%M:%S.%}]%{$reset_color%}'
+RPROMPT='%{$fg[magenta]%}$(git_prompt_info)%{$reset_color%} $(git_prompt_status) %{$fg[white]%}[%D{%H:%M:%S.%}]%{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX=""
 ZSH_THEME_GIT_PROMPT_SUFFIX=""
