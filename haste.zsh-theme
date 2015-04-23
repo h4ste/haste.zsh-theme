@@ -1,6 +1,6 @@
 # Comment
 
-PROMPT='%{$fg[cyan]%}[%m] {$fg[magenta]%}[%c] %{$reset_color%}'
+PROMPT='%{$fg[cyan]%}[$(hostname -s)]%{reset_color} %{$fg[magenta]%}[%c]%{$reset_color%} '
 
 RPROMPT='{$fg[magenta]%}$(git_prompt_info)%{$reset_color%} $(git_prompt_status) %{$fg[white]%}[%D{%H:%M:%S.%}]%{$reset_color%}'
 
